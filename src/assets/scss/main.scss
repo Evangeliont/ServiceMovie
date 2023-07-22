@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'font', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+.btn:not(:last-child) {
+  margin-right: 15px;
+}
+
+.btn {
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  padding: 10px 20px;
+  color: white;
+  background-color: #0095ff;
+  transition: background-color .07s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #006ebd;
+}
+
+.btn:active {
+  background-color: #002d4d;
+}
+
+.btn_green {
+  background-color: green;
+  color: white;
+}

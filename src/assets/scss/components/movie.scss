@@ -1,0 +1,40 @@
+.movie {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #d8d8d8;
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.movie-wrapper-img {
+  margin-right: 30px;
+}
+
+.movie-img {
+  object-fit: cover;
+  object-position: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.movie:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.movie-content {
+  max-width: 500px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.movie-name,
+.movie-overview {
+  margin-bottom: 20px;
+}
+
+.movie-name_mod {
+  color: #b5b5b5;
+}
